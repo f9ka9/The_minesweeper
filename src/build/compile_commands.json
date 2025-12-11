@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/build",
+  "command": "D:\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/The_minesweeper.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -o CMakeFiles\\The_minesweeper.dir\\main.cpp.obj -c C:\\Users\\f9ka9\\Desktop\\task_folder\\programming\\C_C++\\My_project\\The_minesweeper\\src\\main.cpp",
+  "file": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/main.cpp",
+  "output": "CMakeFiles/The_minesweeper.dir/main.cpp.obj"
+}
+]

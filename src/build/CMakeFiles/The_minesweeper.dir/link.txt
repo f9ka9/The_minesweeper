@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\The_minesweeper.dir/objects.a
+D:\Mingw\mingw64\bin\ar.exe qc CMakeFiles\The_minesweeper.dir/objects.a @CMakeFiles\The_minesweeper.dir\objects1.rsp
+D:\Mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\The_minesweeper.dir/objects.a -Wl,--no-whole-archive -o The_minesweeper.exe -Wl,--out-implib,libThe_minesweeper.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\The_minesweeper.dir\linkLibs.rsp
