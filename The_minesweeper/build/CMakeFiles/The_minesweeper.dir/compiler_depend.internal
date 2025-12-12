@@ -98,6 +98,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj
  D:/FLTK/include/FL/Fl_Bitmap.H
  D:/FLTK/include/FL/Fl_Button.H
  D:/FLTK/include/FL/Fl_Device.H
+ D:/FLTK/include/FL/Fl_Double_Window.H
  D:/FLTK/include/FL/Fl_Export.H
  D:/FLTK/include/FL/Fl_GIF_Image.H
  D:/FLTK/include/FL/Fl_Graphics_Driver.H
@@ -314,6 +315,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj
  D:/FLTK/include/FL/Fl_Bitmap.H
  D:/FLTK/include/FL/Fl_Button.H
  D:/FLTK/include/FL/Fl_Device.H
+ D:/FLTK/include/FL/Fl_Double_Window.H
  D:/FLTK/include/FL/Fl_Export.H
  D:/FLTK/include/FL/Fl_GIF_Image.H
  D:/FLTK/include/FL/Fl_Graphics_Driver.H
@@ -560,6 +562,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj
  D:/FLTK/include/FL/Fl_Bitmap.H
  D:/FLTK/include/FL/Fl_Button.H
  D:/FLTK/include/FL/Fl_Device.H
+ D:/FLTK/include/FL/Fl_Double_Window.H
  D:/FLTK/include/FL/Fl_Export.H
  D:/FLTK/include/FL/Fl_GIF_Image.H
  D:/FLTK/include/FL/Fl_Graphics_Driver.H
@@ -748,6 +751,7 @@ CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj
  D:/FLTK/include/FL/Fl_Bitmap.H
  D:/FLTK/include/FL/Fl_Button.H
  D:/FLTK/include/FL/Fl_Device.H
+ D:/FLTK/include/FL/Fl_Double_Window.H
  D:/FLTK/include/FL/Fl_Export.H
  D:/FLTK/include/FL/Fl_GIF_Image.H
  D:/FLTK/include/FL/Fl_Graphics_Driver.H
@@ -956,6 +960,9 @@ CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj
  D:/Mingw/mingw64/x86_64-w64-mingw32/include/wchar.h
  D:/Mingw/mingw64/x86_64-w64-mingw32/include/wctype.h
 
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj
+ C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp
+
 CMakeFiles/The_minesweeper.dir/src/main.cpp.obj
  C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/main.cpp
  C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Board.h
@@ -971,6 +978,7 @@ CMakeFiles/The_minesweeper.dir/src/main.cpp.obj
  D:/FLTK/include/FL/Fl_Bitmap.H
  D:/FLTK/include/FL/Fl_Button.H
  D:/FLTK/include/FL/Fl_Device.H
+ D:/FLTK/include/FL/Fl_Double_Window.H
  D:/FLTK/include/FL/Fl_Export.H
  D:/FLTK/include/FL/Fl_GIF_Image.H
  D:/FLTK/include/FL/Fl_Graphics_Driver.H

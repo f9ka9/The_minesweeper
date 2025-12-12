@@ -96,6 +96,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj: C:/Users/f9ka9/Desktop
   D:/FLTK/include/FL/Fl_Bitmap.H \
   D:/FLTK/include/FL/Fl_Button.H \
   D:/FLTK/include/FL/Fl_Device.H \
+  D:/FLTK/include/FL/Fl_Double_Window.H \
   D:/FLTK/include/FL/Fl_Export.H \
   D:/FLTK/include/FL/Fl_GIF_Image.H \
   D:/FLTK/include/FL/Fl_Graphics_Driver.H \
@@ -311,6 +312,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: C:/Users/f9ka9/Deskt
   D:/FLTK/include/FL/Fl_Bitmap.H \
   D:/FLTK/include/FL/Fl_Button.H \
   D:/FLTK/include/FL/Fl_Device.H \
+  D:/FLTK/include/FL/Fl_Double_Window.H \
   D:/FLTK/include/FL/Fl_Export.H \
   D:/FLTK/include/FL/Fl_GIF_Image.H \
   D:/FLTK/include/FL/Fl_Graphics_Driver.H \
@@ -556,6 +558,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj: C:/Users/f9ka9/Desk
   D:/FLTK/include/FL/Fl_Bitmap.H \
   D:/FLTK/include/FL/Fl_Button.H \
   D:/FLTK/include/FL/Fl_Device.H \
+  D:/FLTK/include/FL/Fl_Double_Window.H \
   D:/FLTK/include/FL/Fl_Export.H \
   D:/FLTK/include/FL/Fl_GIF_Image.H \
   D:/FLTK/include/FL/Fl_Graphics_Driver.H \
@@ -743,6 +746,7 @@ CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj: C:/Users/f9ka9/Desktop/ta
   D:/FLTK/include/FL/Fl_Bitmap.H \
   D:/FLTK/include/FL/Fl_Button.H \
   D:/FLTK/include/FL/Fl_Device.H \
+  D:/FLTK/include/FL/Fl_Double_Window.H \
   D:/FLTK/include/FL/Fl_Export.H \
   D:/FLTK/include/FL/Fl_GIF_Image.H \
   D:/FLTK/include/FL/Fl_Graphics_Driver.H \
@@ -951,6 +955,8 @@ CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj: C:/Users/f9ka9/Desktop/ta
   D:/Mingw/mingw64/x86_64-w64-mingw32/include/wchar.h \
   D:/Mingw/mingw64/x86_64-w64-mingw32/include/wctype.h
 
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp
+
 CMakeFiles/The_minesweeper.dir/src/main.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/main.cpp \
   C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Board.h \
   C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/GUI.h \
@@ -965,6 +971,7 @@ CMakeFiles/The_minesweeper.dir/src/main.cpp.obj: C:/Users/f9ka9/Desktop/task_fol
   D:/FLTK/include/FL/Fl_Bitmap.H \
   D:/FLTK/include/FL/Fl_Button.H \
   D:/FLTK/include/FL/Fl_Device.H \
+  D:/FLTK/include/FL/Fl_Double_Window.H \
   D:/FLTK/include/FL/Fl_Export.H \
   D:/FLTK/include/FL/Fl_GIF_Image.H \
   D:/FLTK/include/FL/Fl_Graphics_Driver.H \
@@ -1298,6 +1305,8 @@ D:/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_trait
 D:/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h:
 
 D:/FLTK/include/FL/Fl_Window.H:
+
+D:/FLTK/include/FL/Fl_Double_Window.H:
 
 D:/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h:
 
@@ -1684,5 +1693,7 @@ D:/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
 C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MainWindow.cpp:
 
 D:/FLTK/include/FL/fl_ask.H:
+
+C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp:
 
 C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/main.cpp:

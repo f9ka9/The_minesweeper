@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/build",
+  "command": "D:\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/The_minesweeper.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -o CMakeFiles\\The_minesweeper.dir\\src\\MenuWindow.cpp.obj -c C:\\Users\\f9ka9\\Desktop\\task_folder\\programming\\C_C++\\My_project\\The_minesweeper\\src\\MenuWindow.cpp",
+  "file": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp",
+  "output": "CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/build",
   "command": "D:\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/The_minesweeper.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -o CMakeFiles\\The_minesweeper.dir\\src\\Graph_lib\\Graph.cpp.obj -c C:\\Users\\f9ka9\\Desktop\\task_folder\\programming\\C_C++\\My_project\\The_minesweeper\\src\\Graph_lib\\Graph.cpp",
   "file": "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/Graph.cpp",
   "output": "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj"

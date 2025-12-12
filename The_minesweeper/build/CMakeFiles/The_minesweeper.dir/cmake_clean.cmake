@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj.d"
   "CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj"
   "CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj.d"
+  "CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj"
+  "CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj.d"
   "CMakeFiles/The_minesweeper.dir/src/main.cpp.obj"
   "CMakeFiles/The_minesweeper.dir/src/main.cpp.obj.d"
   "The_minesweeper.exe"

@@ -22,10 +22,6 @@ MainWindow::MainWindow(Point xy, int w, int h, const string& title,
     origin_x = 20;
     origin_y = 60;
 
-    // Подготовка клеток
-    cellRects.resize(rows, vector<Rectangle*>(cols, nullptr));
-    cellTexts.resize(rows, vector<Text*>(cols, nullptr));
-
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < cols; ++c) {
             int x = origin_x + c * CELL_SIZE;
@@ -33,18 +29,19 @@ MainWindow::MainWindow(Point xy, int w, int h, const string& title,
             Rectangle* rect = new Rectangle(Point(x, y), CELL_SIZE, CELL_SIZE);
             rect->set_color(Color::black);
             rect->set_fill_color(Color::green);
+            cellRects.push_back(rect);
             attach(*rect);
-            cellRects[r][c] = rect;
+            
 
             Text* t = new Text(Point(x + CELL_SIZE/3, y + CELL_SIZE*2/3), "");
             t->set_font_size(14);
             t->set_color(Color::black);
+            cellTexts.push_back(t);
             attach(*t);
-            cellTexts[r][c] = t;
         }
     }
 
-    statusText = new Text(Point(origin_x + cols * CELL_SIZE - 100, origin_y - 25),
+    statusText = new Text(Point(origin_x + 220, origin_y - 25),
                           "Мины: " + to_string(mines));
     statusText->set_font_size(14);
     attach(*statusText);
@@ -53,10 +50,10 @@ MainWindow::MainWindow(Point xy, int w, int h, const string& title,
     firstClick = true;
     gameOver = false;
     drawBoard();
-    
-    // Запрет изменения размера окна
-    size_range(w, h, w, h);
-    resizable(nullptr);
+    FltkInterface::setFixedSize(this, w, h);    
+}
+MainWindow::~MainWindow(){
+    statusText = nullptr;
 }
 
 // ------------------- Колбэки кнопок -------------------
@@ -74,17 +71,29 @@ void MainWindow::on_new_game() {
     firstClick = true;
     gameOver = false;
 
+    // Обновляем все клетки
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < cols; ++c) {
-            cellRects[r][c]->set_fill_color(Color::darker_gray);
-            cellTexts[r][c]->set_label("");
+            int index = r * cols + c;
+            
+            // Проверяем границы (на всякий случай)
+            if (index < cellRects.size()) {
+                cellRects[index].set_fill_color(Color::darker_gray);
+            }
+            
+            if (index < cellTexts.size()) {
+                cellTexts[index].set_label("");
+            }
         }
     }
 
-    statusText->set_label("Мины: " + to_string(mines));
+    // Обновляем статус
+    if (statusText) {
+        statusText->set_label("Мины: " + to_string(mines));
+    }
+    
     redraw();
 }
-
 void MainWindow::on_exit() {
     hide();
 }
@@ -98,33 +107,37 @@ void MainWindow::drawBoard() {
 }
 
 void MainWindow::updateCell(int r, int c) {
+    int index = r * cols + c;
+    if (index < 0 || index >= cellRects.size()) return;
+    
+    
     Cell& cell = board.grid[r][c];
-    Rectangle* rect = cellRects[r][c];
-    Text* text = cellTexts[r][c];
+    Rectangle& rect = cellRects[index];
+    Text& text = cellTexts[index];
 
     if (cell.isRevealed) {
-        rect->set_fill_color(Color::white);
+        rect.set_fill_color(Color::white);
         if (cell.isMine) {
-            text->set_label("*");
-            text->set_color(Color::red);
+            text.set_label("*");
+            text.set_color(Color::red);
         } else if (cell.neighboringMines > 0) {
             ostringstream oss;
             oss << cell.neighboringMines;
-            text->set_label(oss.str());
+            text.set_label(oss.str());
             switch(cell.neighboringMines) {
-                case 1: text->set_color(Color::blue); break;
-                case 2: text->set_color(Color::green); break;
-                case 3: text->set_color(Color::red); break;
-                case 4: text->set_color(Color::magenta); break;
-                case 5: text->set_color(Color::dark_red); break;
-                case 6: text->set_color(Color::dark_cyan); break;
-                case 7: text->set_color(Color::black); break;
-                case 8: text->set_color(Color::dark_yellow); break;
+                case 1: text.set_color(Color::blue); break;
+                case 2: text.set_color(Color::green); break;
+                case 3: text.set_color(Color::red); break;
+                case 4: text.set_color(Color::magenta); break;
+                case 5: text.set_color(Color::dark_red); break;
+                case 6: text.set_color(Color::dark_cyan); break;
+                case 7: text.set_color(Color::black); break;
+                case 8: text.set_color(Color::dark_yellow); break;
             }
-        } else text->set_label("");
+        } else text.set_label("");
     } else {
-        rect->set_fill_color(cell.isFlagged ? Color::red : Color::darker_gray);
-        text->set_label("");
+        rect.set_fill_color(cell.isFlagged ? Color::red : Color::darker_gray);
+        text.set_label("");
     }
 }
 

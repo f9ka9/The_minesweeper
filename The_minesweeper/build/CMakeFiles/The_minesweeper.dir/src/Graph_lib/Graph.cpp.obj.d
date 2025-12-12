@@ -223,6 +223,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: \
  D:/FLTK/include/FL/Fl_Output.H D:/FLTK/include/FL/Fl_Input.H \
  D:/FLTK/include/FL/Fl_Window.H D:/FLTK/include/FL/Fl_Group.H \
  D:/FLTK/include/FL/Fl_Bitmap.H D:/FLTK/include/FL/Fl_Image.H \
+ D:/FLTK/include/FL/Fl_Double_Window.H D:/FLTK/include/FL/Fl_Window.H \
  D:/FLTK/include/FL/fl_draw.H D:/FLTK/include/FL/Fl_Graphics_Driver.H \
  D:/FLTK/include/FL/Fl_Device.H D:/FLTK/include/FL/Fl_Plugin.H \
  D:/FLTK/include/FL/Fl_Preferences.H D:/FLTK/include/FL/Fl_Image.H \

@@ -116,11 +116,26 @@ CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.s"
 	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\MainWindow.cpp -o CMakeFiles\The_minesweeper.dir\src\MainWindow.cpp.s
 
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj: CMakeFiles/The_minesweeper.dir/flags.make
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj: CMakeFiles/The_minesweeper.dir/includes_CXX.rsp
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj: CMakeFiles/The_minesweeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj"
+	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj -MF CMakeFiles\The_minesweeper.dir\src\MenuWindow.cpp.obj.d -o CMakeFiles\The_minesweeper.dir\src\MenuWindow.cpp.obj -c C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\MenuWindow.cpp
+
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.i"
+	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\MenuWindow.cpp > CMakeFiles\The_minesweeper.dir\src\MenuWindow.cpp.i
+
+CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.s"
+	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\MenuWindow.cpp -o CMakeFiles\The_minesweeper.dir\src\MenuWindow.cpp.s
+
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: CMakeFiles/The_minesweeper.dir/flags.make
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: CMakeFiles/The_minesweeper.dir/includes_CXX.rsp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/Graph.cpp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj: CMakeFiles/The_minesweeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj"
 	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj -MF CMakeFiles\The_minesweeper.dir\src\Graph_lib\Graph.cpp.obj.d -o CMakeFiles\The_minesweeper.dir\src\Graph_lib\Graph.cpp.obj -c C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\Graph_lib\Graph.cpp
 
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj: CMakeFiles/The_mineswe
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj: CMakeFiles/The_minesweeper.dir/includes_CXX.rsp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/GUI.cpp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj: CMakeFiles/The_minesweeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj"
 	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj -MF CMakeFiles\The_minesweeper.dir\src\Graph_lib\GUI.cpp.obj.d -o CMakeFiles\The_minesweeper.dir\src\Graph_lib\GUI.cpp.obj -c C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\Graph_lib\GUI.cpp
 
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj: CMakeFiles/The_mine
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj: CMakeFiles/The_minesweeper.dir/includes_CXX.rsp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj: C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/Window.cpp
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj: CMakeFiles/The_minesweeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj"
 	D:\Mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj -MF CMakeFiles\The_minesweeper.dir\src\Graph_lib\Window.cpp.obj.d -o CMakeFiles\The_minesweeper.dir\src\Graph_lib\Window.cpp.obj -c C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\src\Graph_lib\Window.cpp
 
 CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.i: cmake_force
@@ -166,6 +181,7 @@ The_minesweeper_OBJECTS = \
 "CMakeFiles/The_minesweeper.dir/src/main.cpp.obj" \
 "CMakeFiles/The_minesweeper.dir/src/Board.cpp.obj" \
 "CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj" \
+"CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj" \
 "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj" \
 "CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj" \
 "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj"
@@ -176,6 +192,7 @@ The_minesweeper_EXTERNAL_OBJECTS =
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/main.cpp.obj
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/Board.cpp.obj
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj
+The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/Graph_lib/GUI.cpp.obj
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj
@@ -187,7 +204,7 @@ The_minesweeper.exe: D:/FLTK/lib/libfltk.a
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/linkLibs.rsp
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/objects1.rsp
 The_minesweeper.exe: CMakeFiles/The_minesweeper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable The_minesweeper.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable The_minesweeper.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\The_minesweeper.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

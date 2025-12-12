@@ -13,11 +13,7 @@ struct MainWindow : public Window {
 public:
     MainWindow(Point xy, int w, int h, const string& title,
                int rows=10, int cols=10, int mines=10);
-    ~MainWindow() {
-    for (auto& row : cellRects) for (auto p : row) delete p;
-    for (auto& row : cellTexts) for (auto p : row) delete p;
-    delete statusText;
-    }
+    ~MainWindow();
 private:
     static constexpr int CELL_SIZE=30;
 
@@ -29,9 +25,9 @@ private:
     MyButton newGameButton;
     MyButton exitButton;
 
-    vector<vector<Rectangle*>> cellRects;
-    vector<vector<Text*>> cellTexts;
-    Text* statusText = nullptr;
+    Vector_ref<Rectangle> cellRects;
+    Vector_ref<Text> cellTexts;
+    Text* statusText;
 
     static void cb_new_game(Address, Address pw);
     static void cb_exit(Address, Address pw);

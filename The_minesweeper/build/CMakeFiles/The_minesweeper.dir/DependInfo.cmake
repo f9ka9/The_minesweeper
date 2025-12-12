@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/Graph.cpp" "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj" "gcc" "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Graph.cpp.obj.d"
   "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/Graph_lib/Window.cpp" "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj" "gcc" "CMakeFiles/The_minesweeper.dir/src/Graph_lib/Window.cpp.obj.d"
   "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MainWindow.cpp" "CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj" "gcc" "CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.obj.d"
+  "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/MenuWindow.cpp" "CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj" "gcc" "CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj.d"
   "C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/main.cpp" "CMakeFiles/The_minesweeper.dir/src/main.cpp.obj" "gcc" "CMakeFiles/The_minesweeper.dir/src/main.cpp.obj.d"
   )
 

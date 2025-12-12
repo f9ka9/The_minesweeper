@@ -12,7 +12,7 @@ namespace Graph_lib {
 class Shape;  // "forward declare" Shape
 class Widget;
 
-class Window : public Fl_Window
+class Window : public Fl_Double_Window
 {
 public:
   using Fl_Window::resize;

@@ -18,6 +18,7 @@ add_executable(
     src/main.cpp
     src/Board.cpp
     src/MainWindow.cpp
+    src/MenuWindow.cpp
     src/Graph_lib/Graph.cpp
     src/Graph_lib/GUI.cpp
     src/Graph_lib/Window.cpp

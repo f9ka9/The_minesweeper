@@ -261,6 +261,30 @@ src/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/src/MainWindow.cpp.s
 .PHONY : src/MainWindow.cpp.s
 
+src/MenuWindow.obj: src/MenuWindow.cpp.obj
+.PHONY : src/MenuWindow.obj
+
+# target to build an object file
+src/MenuWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.obj
+.PHONY : src/MenuWindow.cpp.obj
+
+src/MenuWindow.i: src/MenuWindow.cpp.i
+.PHONY : src/MenuWindow.i
+
+# target to preprocess a source file
+src/MenuWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.i
+.PHONY : src/MenuWindow.cpp.i
+
+src/MenuWindow.s: src/MenuWindow.cpp.s
+.PHONY : src/MenuWindow.s
+
+# target to generate assembly for a file
+src/MenuWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/src/MenuWindow.cpp.s
+.PHONY : src/MenuWindow.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -310,6 +334,9 @@ help:
 	@echo ... src/MainWindow.obj
 	@echo ... src/MainWindow.i
 	@echo ... src/MainWindow.s
+	@echo ... src/MenuWindow.obj
+	@echo ... src/MenuWindow.i
+	@echo ... src/MenuWindow.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

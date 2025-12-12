@@ -87,12 +87,12 @@ clean: CMakeFiles/CopyResources.dir/clean
 CMakeFiles/The_minesweeper.dir/all: CMakeFiles/CopyResources.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=2,3,4,5,6,7,8 "Built target The_minesweeper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=2,3,4,5,6,7,8,9 "Built target The_minesweeper"
 .PHONY : CMakeFiles/The_minesweeper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/The_minesweeper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/The_minesweeper.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles 0
 .PHONY : CMakeFiles/The_minesweeper.dir/rule
@@ -104,7 +104,7 @@ The_minesweeper: CMakeFiles/The_minesweeper.dir/rule
 # codegen rule for target.
 CMakeFiles/The_minesweeper.dir/codegen: CMakeFiles/CopyResources.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\The_minesweeper.dir\build.make CMakeFiles/The_minesweeper.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=2,3,4,5,6,7,8 "Finished codegen for target The_minesweeper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\f9ka9\Desktop\task_folder\programming\C_C++\My_project\The_minesweeper\build\CMakeFiles --progress-num=2,3,4,5,6,7,8,9 "Finished codegen for target The_minesweeper"
 .PHONY : CMakeFiles/The_minesweeper.dir/codegen
 
 # clean rule for target.
