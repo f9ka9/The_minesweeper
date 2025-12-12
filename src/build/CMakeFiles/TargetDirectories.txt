@@ -1,3 +1,0 @@
-C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/build/CMakeFiles/The_minesweeper.dir
-C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/build/CMakeFiles/edit_cache.dir
-C:/Users/f9ka9/Desktop/task_folder/programming/C_C++/My_project/The_minesweeper/src/build/CMakeFiles/rebuild_cache.dir
